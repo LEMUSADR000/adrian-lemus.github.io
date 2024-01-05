@@ -15,15 +15,20 @@ const Hero = () => (
       }
       description={
         <>
-          Mobile application developer with{' '}
+          I'm a mobile application developer with{' '}
           <a className="text-cyan-400 hover:underline" href="/">
            four years
           </a>{' '}
           of full-time experience primarily in delivering applications 
           requiring high output data transfers to and from peripherals 
-          and cloud systems.{'\n'}
-          I am particularly interested in integrating the up-and-coming
-          LLM models with the capabilities of mobile apps.{'\n'}
+          and cloud systems.
+          <br /><br />
+          I've spent a good portion of my early career working in a
+          startup environment which has taught me many valuable lessons.
+          <br /><br />
+          Outside of work I dabble in different projects but I am currently 
+          very interested in integrating the up-and-coming
+          LLM models with the capabilities of mobile apps.
           <a className="text-cyan-400 hover:underline" href="/">
           Let's talk about it!
           </a>{' '}
