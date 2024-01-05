@@ -16,51 +16,37 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Synopic"
+        description="iOS app made with SwiftUI using Service Locator + MVVM + Combine as the general architecture. 
+        Implements optical character recognition services to scan long-form documents and create notes using OpenAI’s
+        LLM API and then stores them with Core Data. API services are made with custom REST API implemented with 
+        AWS Lambda, API Gateway, and Secrets."
+        link="https://apps.apple.com/us/app/synopic/id6446234665"
         img={{
           src: '/assets/images/project-web-design.png',
           alt: 'Project Web Design',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.ORANGE}>Swift</Tags>
+            <Tags color={ColorTags.LIME}>Core Data</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Combine</Tags>
+            <Tags color={ColorTags.BLUE}>VisionKit</Tags>
+            <Tags color={ColorTags.RED}>AWS</Tags>
+
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Bluetooth Identifiers"
+        description="Codification of some Assigned Numbers from Bluetooth.com which have been packaged into a Flutter package for your convenience!"
+        link="https://pub.dev/packages/bluetooth_identifiers"
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
-          </>
-        }
-      />
-      <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.VIOLET}>Dart</Tags>
+            <Tags color={ColorTags.BLUE}>Flutter</Tags>
+            <Tags color={ColorTags.EMERALD}>Python</Tags>
           </>
         }
       />
